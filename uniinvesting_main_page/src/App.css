@@ -45,7 +45,7 @@
   width: 50%;
 }
 
-a {
+.scroll-a {
   width: 100%;
   flex: 0 0 27.33%;
   margin: 2%;
@@ -77,7 +77,7 @@ section {
 }
 
 .section-box{
-  padding-bottom: 22%;
+  padding-bottom: 16%;
   background: #ecf3ff;
 }
 .space-top {
@@ -91,4 +91,97 @@ section {
 }
 .row-box {
   width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.list-block {
+  padding: 2%;
+  border-bottom: solid 1px grey;
+}
+div#expenses {
+  background: whitesmoke;
+  width: 30%;
+  margin-bottom: 2%;
+  cursor: pointer;
+  margin: 1%;
+}
+.row-left{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.tr-block-1 {
+  width: 80%;
+  text-align: left;
+  cursor: pointer;
+}
+.tr-block-2 {
+  width: 20%;
+  cursor: pointer;
+}
+.tr-block-3 {
+    width: 33.33%;
+    text-align: left;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.hide{
+  display: none;
+}
+div#income {
+  background: whitesmoke;
+  width: 30%;
+  margin-bottom: 2%;
+  cursor: pointer;
+  margin: 1%;
+}
+div#investment{
+  background: whitesmoke;
+  width: 30%;
+  margin-bottom: 2%;
+  cursor: pointer;
+  margin: 1%;
+}
+.tr-block-4 {
+  width: 50%;
+  text-align: left;
+  margin-top: 5%;
+  cursor: pointer;
+}
+.icon {
+  font-size: xx-large;
+  margin-top: 7%;
+  margin-right: 7%;
+}
+.graph{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.centered{
+  display: flex;
+  justify-content: center;
+}
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-row {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+a.footer-links {
+  width: 10%;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+div#footer {
+  background: #ebebeb;
+  color: black;
+  margin-top: 10%;
+  padding: 3%;
 }
