@@ -28,10 +28,10 @@ export const investments = [
         investment_id: 'investment-4'
     },
     {
-        investment_name: 'One-Time Investment',
+        investment_name: 'Monthly Investment',
         investment_amount: 150,
-        investment_source: 'Space X',
-        investment_date: '6/22/2022',
+        investment_source: 'Wealthsimple',
+        investment_date: '6/19/2022',
         investment_id: 'investment-5'
     },
 ]

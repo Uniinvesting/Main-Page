@@ -3,14 +3,77 @@ import { expenses } from './data/expenses'
 import { income } from './data/income'
 import { investments } from './data/investments'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { PieChart, Pie, Tooltip } from "recharts";
 import { faCoins, faMoneyBillTransfer, faSackDollar } from '@fortawesome/free-solid-svg-icons'
 
 export default function Finance_tracker() {
+    const income_data = [
+        { name: "Bank of Montreal", value: 4500 },
+        { name: "Upwork", value: 5000 },
+        { name: "Product Selling", value: 500 }
+    ];
+
+    const expense_data = [
+        { name: "Living", value: 1000 },
+        { name: "Education", value: 1300 },
+        { name: "Business", value: 1200 },
+    ];
+
+    const investment_data = [
+        { name: "Apple Inc", value: 250 },
+        { name: "Spotify", value: 100 },
+        { name: "Wealthsimple", value: 200 },
+        { name: "Rogers", value: 350 },
+    ];
   return (
     <div id='finance-tracking'>
         <div className='centered-text space-top'>
             <h1>Track Your Finance - Easily!</h1>
         </div>
+            <div className='row'>
+                <div className='graph' id='graph-1'>
+                    <PieChart width={200} height={200}>
+                        <Pie
+                            dataKey="value"
+                            isAnimationActive={true}
+                            data={income_data}
+                            cornerRadius={0}
+                            innerRadius={60}
+                            outerRadius={80} 
+                            fill="#c3d9ff"
+                        />
+                        <Tooltip />
+                    </PieChart>
+                </div>
+                <div className='graph' id='graph-2'>
+                    <PieChart width={200} height={200}>
+                        <Pie
+                            dataKey="value"
+                            isAnimationActive={true}
+                            data={expense_data}
+                            cornerRadius={0}
+                            innerRadius={60}
+                            outerRadius={80} 
+                            fill="#c3d9ff"
+                        />
+                        <Tooltip />
+                    </PieChart>
+                </div>
+                <div className='graph' id='graph-3'>
+                    <PieChart width={200} height={200}>
+                        <Pie
+                            dataKey="value"
+                            isAnimationActive={true}
+                            data={investment_data}
+                            cornerRadius={0}
+                            innerRadius={60}
+                            outerRadius={80} 
+                            fill="#c3d9ff"
+                        />
+                        <Tooltip />
+                    </PieChart>
+                </div>
+            </div>
             <div className='row'>
                 <div className='row-box'>
                     <div className='icon'>

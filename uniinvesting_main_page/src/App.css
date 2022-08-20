@@ -155,3 +155,8 @@ div#investment{
   margin-top: 7%;
   margin-right: 7%;
 }
+.graph{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
