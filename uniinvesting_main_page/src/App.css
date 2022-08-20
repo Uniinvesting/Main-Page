@@ -92,3 +92,38 @@ section {
 .row-box {
   width: 30%;
 }
+.list-block {
+  padding: 2%;
+  border-bottom: solid 1px grey;
+}
+div#expenses {
+  background: whitesmoke;
+  width: 30%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+.row-left{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.tr-block-1 {
+  width: 80%;
+  text-align: left;
+  cursor: pointer;
+}
+.tr-block-2 {
+  width: 20%;
+  cursor: pointer;
+}
+.tr-block-3 {
+    width: 33.33%;
+    text-align: left;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.hide{
+  display: none;
+}
