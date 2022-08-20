@@ -91,6 +91,8 @@ section {
 }
 .row-box {
   width: 30%;
+  display: flex;
+  justify-content: center;
 }
 .list-block {
   padding: 2%;
@@ -147,4 +149,9 @@ div#investment{
   text-align: left;
   margin-top: 5%;
   cursor: pointer;
+}
+.icon {
+  font-size: xx-large;
+  margin-top: 7%;
+  margin-right: 7%;
 }

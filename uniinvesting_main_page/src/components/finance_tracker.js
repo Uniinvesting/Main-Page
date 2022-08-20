@@ -2,6 +2,8 @@ import React from 'react'
 import { expenses } from './data/expenses'
 import { income } from './data/income'
 import { investments } from './data/investments'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoins, faMoneyBillTransfer, faSackDollar } from '@fortawesome/free-solid-svg-icons'
 
 export default function Finance_tracker() {
   return (
@@ -12,7 +14,7 @@ export default function Finance_tracker() {
             <div className='row'>
                 <div className='row-box'>
                     <div className='icon'>
-
+                        <FontAwesomeIcon icon={faSackDollar} />
                     </div>
                     <div className='finance-info'>
                         <h5>Total Income</h5>
@@ -21,7 +23,7 @@ export default function Finance_tracker() {
                 </div>
                 <div className='row-box'>
                     <div className='icon'>
-
+                        <FontAwesomeIcon icon={faMoneyBillTransfer} />
                     </div>
                     <div className='finance-info'>
                         <h5>Total Expenses</h5>
@@ -30,7 +32,7 @@ export default function Finance_tracker() {
                 </div>
                 <div className='row-box'>
                     <div className='icon'>
-
+                        <FontAwesomeIcon icon={faCoins} />
                     </div>
                     <div className='finance-info'>
                         <h5>Total Investments</h5>
