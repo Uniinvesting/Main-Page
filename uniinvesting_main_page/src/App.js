@@ -4,6 +4,7 @@ import Scroll_section_one from './components/scroll-section-one';
 import Scroll_section_two from './components/scroll-section-two';
 import Scroll_section_three from './components/scroll-section-three';
 import Finance_tracker from './components/finance_tracker';
+import Footer from './components/data/footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Scroll_section_two />
       <Scroll_section_three />
       <Finance_tracker />
+      <Footer />
     </div>
   );
 }

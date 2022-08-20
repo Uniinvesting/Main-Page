@@ -160,3 +160,24 @@ div#investment{
   display: flex;
   justify-content: center;
 }
+.centered{
+  display: flex;
+  justify-content: center;
+}
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-row {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+a.footer-links {
+  width: 10%;
+}
+div#footer {
+  background: #ebebeb;
+  color: black;
+  margin-top: 10%;
+}
