@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+.centered-text{
+  display: flex;
+  justify-content: center;
+}
+
+.centered-text p {
+  width: 50%;
+}
+
+a {
+  width: 100%;
+  flex: 0 0 27.33%;
+  margin: 2%;
+  text-decoration: none;
+  color: black;
+}
+
+.article-box {
+  width: 100%;
+  border: solid black 2px;
+  border-radius: 12px;
+  text-align: left;
+  padding: 6%;
+}
+
+section {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.scroll-section {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.scroll-section::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.section-box{
+  padding-bottom: 22%;
+}
