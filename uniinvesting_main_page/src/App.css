@@ -78,4 +78,17 @@ section {
 
 .section-box{
   padding-bottom: 22%;
+  background: #ecf3ff;
+}
+.space-top {
+  margin-top: 5%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3%;
+}
+.row-box {
+  width: 30%;
 }

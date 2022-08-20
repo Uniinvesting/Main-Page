@@ -12,7 +12,7 @@ export default function Scroll_section_one() {
         </a>
         {investing_scroll.map((data, key) => {
             return (
-                <a href=''>
+                <a href={data.link}>
                     <div className='article-box' id={data.id} key={key}>
                         <h2>{data.name}</h2>
                         <h6>By: {data.author}</h6>
