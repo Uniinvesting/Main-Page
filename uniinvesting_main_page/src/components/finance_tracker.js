@@ -25,6 +25,7 @@ export default function Finance_tracker() {
         { name: "Wealthsimple", value: 200 },
         { name: "Rogers", value: 350 },
     ];
+    
   return (
     <div id='finance-tracking'>
         <div className='centered-text space-top'>
@@ -32,7 +33,7 @@ export default function Finance_tracker() {
         </div>
             <div className='row'>
                 <div className='graph' id='graph-1'>
-                    <PieChart width={200} height={200}>
+                    <PieChart width={250} height={250}>
                         <Pie
                             dataKey="value"
                             isAnimationActive={true}
@@ -41,12 +42,13 @@ export default function Finance_tracker() {
                             innerRadius={60}
                             outerRadius={80} 
                             fill="#c3d9ff"
+                            label
                         />
                         <Tooltip />
                     </PieChart>
                 </div>
                 <div className='graph' id='graph-2'>
-                    <PieChart width={200} height={200}>
+                    <PieChart width={250} height={250}>
                         <Pie
                             dataKey="value"
                             isAnimationActive={true}
@@ -55,12 +57,13 @@ export default function Finance_tracker() {
                             innerRadius={60}
                             outerRadius={80} 
                             fill="#c3d9ff"
+                            label
                         />
                         <Tooltip />
                     </PieChart>
                 </div>
                 <div className='graph' id='graph-3'>
-                    <PieChart width={200} height={200}>
+                    <PieChart width={250} height={250}>
                         <Pie
                             dataKey="value"
                             isAnimationActive={true}
@@ -69,8 +72,9 @@ export default function Finance_tracker() {
                             innerRadius={60}
                             outerRadius={80} 
                             fill="#c3d9ff"
-                        />
-                        <Tooltip />
+                            label
+                           /> 
+                         <Tooltip />
                     </PieChart>
                 </div>
             </div>
