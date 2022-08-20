@@ -185,3 +185,27 @@ div#footer {
   margin-top: 10%;
   padding: 3%;
 }
+div#popup {
+  position: fixed;
+  top: 68%;
+  background: #ecf3ff;
+  padding: 2%;
+  left: 75%;
+  border: solid 2px black;
+  border-radius: 12px;
+  width: 20%;
+}
+div#popup {
+  position: fixed;
+  top: 68%;
+  background: #ecf3ff;
+  padding: 2%;
+  left: 73%;
+  border: solid 2px black;
+  border-radius: 12px;
+  width: 20%;
+}
+.left-align {
+  display: flex;
+  justify-content: left;
+}
