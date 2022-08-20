@@ -4,7 +4,7 @@ export const expenses = [
         expense_amount: 1200.00,
         expense_type: 'education',
         expense_category: 'personal',
-        expense_date: '5/15/2022',
+        expense_date: '8/15/2022',
         expense_id: 'expense-1'
     },
     {
@@ -20,7 +20,7 @@ export const expenses = [
         expense_amount: 100.00,
         expense_type: 'education',
         expense_category: 'personal',
-        expense_date: '3/12/2022',
+        expense_date: '7/18/2022',
         expense_id: 'expense-3'
     },
     {
@@ -28,7 +28,7 @@ export const expenses = [
         expense_amount: 900.00,
         expense_type: 'business',
         expense_category: 'investing',
-        expense_date: '5/17/2022',
+        expense_date: '7/02/2022',
         expense_id: 'expense-4'
     },
     {
@@ -36,7 +36,7 @@ export const expenses = [
         expense_amount: 300.00,
         expense_type: 'business',
         expense_category: 'investing',
-        expense_date: '7/01/2022',
+        expense_date: '6/29/2022',
         expense_id: 'expense-5'
     }
 

@@ -101,6 +101,7 @@ div#expenses {
   width: 30%;
   margin-bottom: 2%;
   cursor: pointer;
+  margin: 1%;
 }
 .row-left{
   display: flex;
@@ -126,4 +127,24 @@ div#expenses {
 }
 .hide{
   display: none;
+}
+div#income {
+  background: whitesmoke;
+  width: 30%;
+  margin-bottom: 2%;
+  cursor: pointer;
+  margin: 1%;
+}
+div#investment{
+  background: whitesmoke;
+  width: 30%;
+  margin-bottom: 2%;
+  cursor: pointer;
+  margin: 1%;
+}
+.tr-block-4 {
+  width: 50%;
+  text-align: left;
+  margin-top: 5%;
+  cursor: pointer;
 }
