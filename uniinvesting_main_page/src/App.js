@@ -6,6 +6,7 @@ import Scroll_section_three from './components/scroll-section-three';
 import Finance_tracker from './components/finance_tracker';
 import Web_scraper from './components/web_scraper';
 import Footer from './components/data/footer';
+import Popup from './components/popup';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Finance_tracker />
       <Web_scraper />
       <Footer />
+      <Popup />
     </div>
   );
 }
