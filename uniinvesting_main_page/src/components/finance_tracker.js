@@ -29,7 +29,7 @@ export default function Finance_tracker() {
   return (
     <div id='finance-tracking'>
         <div className='centered-text space-top'>
-            <h1>Track Your Finance - Easily!</h1>
+            <h1>Your Finances 🌈</h1>
         </div>
             <div className='row'>
                 <div className='graph' id='graph-1'>
