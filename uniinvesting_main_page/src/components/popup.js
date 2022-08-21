@@ -10,8 +10,8 @@ export default function Popup() {
 
   return (
     <div id='popup'>
-        <div class='left-align'><FontAwesomeIcon  icon={faXmark} onClick={closeWindow}/></div>
-        <div class='centered'>Checkout the trending stocks...</div>
+        <div className='left-align'><FontAwesomeIcon  icon={faXmark} onClick={closeWindow}/></div>
+        <div className='centered'>Checkout the trending stocks...</div>
     </div>
   )
 }

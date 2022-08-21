@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffe5d9;
 }
 
 @keyframes App-logo-spin {
@@ -55,10 +56,44 @@
 
 .article-box {
   width: 100%;
-  border: solid black 2px;
+  border: solid 2px transparent;
   border-radius: 12px;
   text-align: left;
   padding: 6%;
+  box-shadow: 2px 2px 2px 2px #888888;
+  background-color: #ffe5d9;
+}
+
+.article-box-crypto {
+  width: 100%;
+  border: solid 2px transparent;
+  border-radius: 12px;
+  text-align: left;
+  padding: 6%;
+  box-shadow: 2px 2px 2px 2px #888888;
+  background-color: #d1b3c4;
+}
+
+.title-box {
+  width: 100%;
+  border: solid 2px transparent;
+  border-radius: 12px;
+  height: 163px;
+  text-align: left;
+  padding: 6%;
+  box-shadow: 2px 2px 2px 2px #888888;
+  background-color: #ffcad4;
+}
+
+.title-box-crypto {
+  width: 100%;
+  border: solid 2px transparent;
+  border-radius: 12px;
+  height: 163px;
+  text-align: left;
+  padding: 6%;
+  box-shadow: 2px 2px 2px 2px #888888;
+  background-color: #cdb4db;
 }
 
 section {

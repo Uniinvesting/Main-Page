@@ -5,7 +5,7 @@ export default function Scroll_section_two() {
   return (
     <div className='scroll-section'>
         <a href='' className='scroll-a'>
-            <div className='article-box section-box'>
+            <div className='title-box'>
                 <h1>Personal Finance</h1>
                 <h3>Explore</h3>
             </div>

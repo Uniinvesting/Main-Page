@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Scroll_section_one />
+      
       <Scroll_section_two />
       <Scroll_section_three />
       <Finance_tracker />
