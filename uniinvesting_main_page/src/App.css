@@ -245,6 +245,7 @@ div#popup {
   border: solid 2px black;
   border-radius: 12px;
   width: 20%;
+  z-index: 2;
 }
 .left-align {
   display: flex;
