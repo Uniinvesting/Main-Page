@@ -27,39 +27,39 @@
 // Data to load
 export const investing_scroll = [
     {
-        name: 'lorem ipsum',
+        name: 'How to Start Investing in Stocks: A Beginner’s Guide',
         link: '',
         id: 'invest-article-1',
-        author: 'Andrian Polak',
-        description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
+        author: 'Julius Mansa',
+        description: "Investing is a way to set aside money while you are busy with life and have that money work for you."
     },
     {
-        name: 'lorem ipsum',
+        name: 'Five types of investment risk',
         id: 'invest-article-2',
-        author: 'Andrian Polak',
+        author: 'Amy Watson',
         link: '',
-        description: ""
+        description: "It’s a fundamental principal that to earn a higher return over time, you have to be comfortable taking on more risk in the short term. "
     },
     {
-        name: 'lorem ipsum',
+        name: 'Why start investing',
         id: 'invest-article-3',
-        author: 'Andrian Polak',
+        author: 'Andrew Hao',
         link: '',
         description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
     },
     {
-        name: 'lorem ipsum',
+        name: '5 investing myths debunked',
         id: 'invest-article-4',
         link: '',
         author: 'Andrian Polak',
-        description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
+        description: "There are so many misconceptions about investing and financial markets in general. "
     },
     {
-        name: 'lorem ipsum',
+        name: 'When and how to start investing',
         id: 'invest-article-5',
         link: '',
-        author: 'Andrian Polak',
-        description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
+        author: 'Julian Xu',
+        description: "If you’re asking, “when should I start investing?”, the short answer is as soon as you can. "
     }
 ]
 
