@@ -4,7 +4,7 @@ import {investing_scroll} from './data/scroll_one'
 export default function Scroll_section_one() {
   return (
     <div className='scroll-section'>
-        <a href='' className='scroll-a'>
+        <a href='https://articles-8zs0x8bm0-uniiinvesting.vercel.app/InvestingPage' className='scroll-a'>
             <div className='title-box-investing'>
                 <h1>Investing</h1>
                 <h3>Explore</h3>
