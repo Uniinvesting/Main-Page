@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Popup />
       <Web_scraper />
+      <Scroll_section_one />
       <Scroll_section_two />
       <Scroll_section_three />
       <Finance_tracker />

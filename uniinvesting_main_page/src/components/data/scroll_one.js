@@ -25,7 +25,7 @@
 // }
 
 // Data to load
-let investing_scroll = [
+export const investing_scroll = [
     {
         name: 'lorem ipsum',
         link: '',

@@ -14,8 +14,8 @@ export default function web_scraper() {
     return (
         <div>
             <a href="https://articles-8zs0x8bm0-uniiinvesting.vercel.app/">
-                <button>Catalog</button>
-                </a>
+                <button style={{marginBottom: '10%'}}>Catalog</button>
+            </a>
         </div>
     )
 }
