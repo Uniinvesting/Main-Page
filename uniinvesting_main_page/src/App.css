@@ -65,6 +65,7 @@
   padding: 6%;
   box-shadow: 2px 2px 2px 2px #888888;
   background-color: #ffe5d9;
+  height: 183px;
 }
 
 .article-box-crypto {
@@ -75,6 +76,7 @@
   padding: 6%;
   box-shadow: 2px 2px 2px 2px #888888;
   background-color: #d1b3c4;
+  height: 183px;
 }
 
 .title-box {

@@ -1,37 +1,37 @@
 export const crypto_scroll = [
     {
-        name: 'lorem ipsum',
+        name: 'What is Cryptocurrency',
         id: 'invest-article-1',
-        author: 'Andrian Polak',
-        link: '',
-        description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
+        author: 'Robert Stevens',
+        link: 'https://articles-8zs0x8bm0-uniiinvesting.vercel.app/CryptoPage',
+        description: "A beginner's guide to Cryptocurrency"
     },
     {
-        name: 'lorem ipsum',
+        name: 'What is Ethereum?',
         id: 'invest-article-2',
-        author: 'Andrian Polak',
+        author: 'Andrew Goldman',
         link: '',
-        description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
+        description: "Learn about one of the most popular cryptocurrencies on the market - Ethereum."
     },
     {
-        name: 'lorem ipsum',
+        name: 'What is Bitcoin',
         id: 'invest-article-3',
-        author: 'Andrian Polak',
-        link: '',
-        description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
+        author: 'Robert Stevens',
+        link: 'https://articles-8zs0x8bm0-uniiinvesting.vercel.app/CryptoPage',
+        description: "Learn all about Bitcoin and how it works from the Backend."
     },
     {
-        name: 'lorem ipsum',
+        name: 'Best Bitcoin Wallets',
         id: 'invest-article-4',
-        author: 'Andrian Polak',
-        link: '',
-        description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
+        author: 'Robert Stevens',
+        link: 'https://articles-8zs0x8bm0-uniiinvesting.vercel.app/CryptoPage',
+        description: "How to know which crypto wallet is the best for you."
     },
     {
-        name: 'lorem ipsum',
+        name: 'Ethereum vs Bitcoin',
         id: 'invest-article-5',
-        author: 'Andrian Polak',
-        link: '',
-        description: "Want to invest like a pro? Learn the basics of investing from us and we'll have you on the road to investing in no time."
+        author: 'Rovert Stevens',
+        link: 'https://articles-8zs0x8bm0-uniiinvesting.vercel.app/CryptoPage',
+        description: "Ethereum and Bitcoin are the largest and most important cryptocurrenices in the world. Here's how they are different."
     }
 ]

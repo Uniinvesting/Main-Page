@@ -4,7 +4,7 @@ import {crypto_scroll} from './data/scroll_three'
 export default function Scroll_section_three() {
   return (
     <div className='scroll-section'>
-        <a href='' className='scroll-a'>
+        <a href='https://articles-8zs0x8bm0-uniiinvesting.vercel.app/CryptoPage' className='scroll-a'>
             <div className='title-box-crypto'>
                 <h1>Crypto</h1>
                 <h3>Explore</h3>

@@ -4,7 +4,7 @@ import {personal_finance_scroll} from './data/scroll_two'
 export default function Scroll_section_two() {
   return (
     <div className='scroll-section'>
-        <a href='' className='scroll-a'>
+        <a href='https://articles-8zs0x8bm0-uniiinvesting.vercel.app/FinancePage' className='scroll-a'>
             <div className='title-box'>
                 <h1>Personal Finance</h1>
                 <h3>Explore</h3>
