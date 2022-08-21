@@ -12,10 +12,11 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Web_scraper />
       <Scroll_section_two />
       <Scroll_section_three />
       <Finance_tracker />
-      <Web_scraper />
+      
       <Footer />
       <Popup />
     </div>

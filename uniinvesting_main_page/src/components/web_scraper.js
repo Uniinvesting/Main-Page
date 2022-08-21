@@ -1,4 +1,5 @@
 import React from 'react'
+
 // import puppeteer from "puppeteer"
 
 // async function start() {
@@ -12,7 +13,9 @@ export default function web_scraper() {
     // start()
     return (
         <div>
-            Hello world
+            <a href="https://articles-8zs0x8bm0-uniiinvesting.vercel.app/">
+                <button>Catalog</button>
+                </a>
         </div>
     )
 }
